@@ -1,0 +1,35 @@
+Hello Shiny Application
+========================================================
+author: Ronc
+date: July 2014
+
+Server
+========================================================
+
+The server.R script contains the instructions that your computer needs to build your app. It is defined in a source script called server.R for the Hello Shiny example.
+
+Ui
+========================================================
+
+The user-interface (ui) script controls the layout and appearance of your app. It is defined in a source script named ui.R for the Hello Shiny application.
+
+Details
+========================================================
+
+The Hello Shiny server.R script is very simple. 
+
+The script does some calculations and then plots a histogram with the requested number of bins.
+
+Play with the Hello Shiny app and review the source code. Try to develop a feel for how the app works.
+
+Run
+========================================================
+
+Every Shiny app has the same structure: two R scripts saved together in a directory. At a minimum, a Shiny app has ui.R and server.R files.
+
+You can create a Shiny app by making a new directory and saving a ui.R and server.R file inside it. 
+
+```{r echo=TRUE}
+library(shiny)
+runApp("DevDataProd")
+```
